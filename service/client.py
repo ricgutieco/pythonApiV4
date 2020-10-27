@@ -12,6 +12,7 @@ class Client():
     def add_preexistence(self, n_preexistence):
         self.preexistence.append(n_preexistence)
         return len(self.preexistence) - 1
+    
     """ Ads a prexistencies to a client """
 
     def get_preexistence(self, p_index):
